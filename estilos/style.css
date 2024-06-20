@@ -1,0 +1,147 @@
+h1{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    text-align: center;
+}
+.frente
+{
+ width: 100px;
+ height: 40px;
+ margin-left: 40%;
+ background-color: peru;
+ border: 7px ;
+ border-radius: 15px 15px 0px 0px;
+ border-color: black black rgb(121, 78, 0) black;
+ border-style: solid;
+}
+.cinta
+{
+ width: 90px;
+ height: 10px;
+ margin-left: 40.5%;
+ background-color: peru;
+ border: 7px;
+ border-color: peru black rgb(121, 78, 0) black;
+ border-style: solid;
+ position: relative;
+ padding-bottom: 5px;
+}
+.cara
+{
+    width: 90px;
+    height: 100px;
+    margin-left: 40.5%;
+    background-color: peru;
+    border: 7px;
+    border-color: peru black black black;
+    border-style: solid;
+    border-radius: 0px 0px 10px 10px;
+}
+.cara .ojouno{
+    width: 10px;
+    height: 10px;
+    border: 7px;
+    border-color: rgb(121,78,0);
+    border-style: solid;
+    float: left;
+
+    border-radius: 5px;
+    margin-left: 7px;
+}
+.cara .naris{
+    
+    width: 10px;
+    height: 40px;
+    border: 7px;
+    float: right;
+    float: left;
+    border-color: rgb(121,78,0);
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 1px;
+}
+.cara .ojodos{
+    width: 10px;
+    height: 10px;
+    border: 7px;
+    float: right;
+    border-color: rgb(121,78,0);
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+.cara .boca{
+    width: 50px;
+    height: 10px;
+    border: 7px;
+    border-color: rgb(121,78,0);
+    border-style: solid;
+    margin-top: 60px;
+    margin-left: 15px;
+    border-radius: 5px;
+    
+}
+.cuerpo {
+    width: 150px;
+    height: 270px;
+    margin-left: 37.5%;
+    background-color: peru;
+    border: 7px ;
+    border-radius: 15px;
+    border-color: black black rgb(121, 78, 0) black;
+    border-style: solid;
+}
+.cintura{
+    width: 160px;
+    height: 60px;
+    margin-left: 37%;
+    background-color: peru;
+    border: 7px ;
+    border-radius: 15px;
+    border-color: rgb(121, 78, 0) black rgb(121, 78, 0) black;
+    border-style: solid;
+    
+}
+.musl{
+    width: 150px;
+    height: 100px;
+    margin-left: 37.5%;
+    background-color: peru;
+    border: 7px ;
+    border-radius: 15px;
+    border-color: black black rgb(121, 78, 0) black;
+    border-style: solid;
+    border-radius: 0px 0px 30px 30px;
+}
+.piernas{
+    width: 130px;
+    height: 100px;
+    margin-left: 38.5%;
+    background-color: peru;
+    border: 7px;
+    
+    border-color:   rgb(121, 78, 0) black rgb(121, 78, 0) black;
+    border-style:solid;
+
+}
+.piernas .izqui{
+    width: 57px;
+    height: 80px;
+    float: left;
+    border-right: 5px;
+    border-bottom: 7px;
+    border-color:   rgb(121, 78, 0) black rgb(121, 78, 0) black;
+    border-style: solid;
+    
+}
+.piernas .dere{
+    width: 57px;
+    height: 80px;
+    border-left: 5px;
+    float: right;
+    border-bottom: 7px;
+    border-color:   rgb(121, 78, 0) black rgb(121, 78, 0) black;
+    border-style: solid;
+}
